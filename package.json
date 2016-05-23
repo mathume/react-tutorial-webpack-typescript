@@ -1,0 +1,27 @@
+{
+  "name": "react-tutorial-typescript-webpack",
+  "version": "0.0.0",
+  "description": "implementation of react-tutorial with typescript and webpack",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "node node_modules/karma/bin/karma start ./config/karma.conf.js",
+    "start": "webpack-dev-server --progress --port 3001 --hot --inline --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-shim": "^0.35.1",
+    "jquery": "^2.2.3",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "react-marked": "^0.3.1",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
